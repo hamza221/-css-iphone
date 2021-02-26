@@ -1,0 +1,343 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-5deg);
+
+    }
+}
+.container{
+    animation: rot 300ms 5 alternate;
+    background-color: black;
+    background-image: linear-gradient(rgb(231, 158, 62),rgb(58, 204, 114)) ;
+    height: 69.5mm ;
+    width: 140.7mm;
+    border-top: 5px solid Black;
+    border-bottom: 10px solid Black;
+    border-left: 3px solid Black;
+    border-right: 3px solid Black;
+   
+    margin: 5% auto;
+    border-radius: 35px;
+    position: relative;
+    box-shadow:0 2px 4px rgb(0 ,0 ,0 , 0.9), 0 8px 16px rgb(0, 0 ,0 , 0.9);
+}
+.status-bar{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    height: 7px;
+    margin-top: 8px;
+    margin-left: 7px; 
+    
+
+     
+}
+.time{
+   
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 4%;
+    margin-top: 2px;
+
+}
+#battery{
+    transform: rotate(90deg) ;
+}
+.icon{
+    height: 13px;
+    margin-right: 2px;
+}
+.icons{
+    display: flex;
+    margin-left: 82%;
+      
+}
+.footer{
+    margin-top: 200px;
+    margin-left: 3%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height:18%;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+.apps{
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+}
+.dots{
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 47%;
+    height: 15px;
+    width: 30px;
+    
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+   
+}
+.dot1{
+    height: 6px;
+    width: 6px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    display: inline-block;
+   
+}
+.first-line1{
+    position: absolute; 
+    height: 150px;
+    width: 150px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.first-line2{
+    position: absolute;
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 12%;
+    margin-left: 65%;
+}
+.first-line3{
+    display: none;
+}
+.first-line4{
+    display: none;
+}
+.first-line5{
+    display: none;
+}
+.first-line6{
+    display: none;
+}
+.fb{
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+.facebook{
+    height: 40px;
+    width: 40px;
+
+}
+.txt{
+    padding-top: 3px;
+    text-align: center;
+    font-size: 7px;
+    font-family: sans-serif;
+    color: white;
+}
+.one-one{
+    display: flex;
+    justify-content: space-between;
+}
+.one-two{
+    margin-top: 20%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin-top: -15%;
+    margin-left: -5%;
+    height: 150px;
+    width: 150px;
+}
+@media (max-width:500px){
+    @keyframes rot{
+        0%{
+            transform: rotate(0);
+        }
+        100%{
+            transform: rotate(-5deg);
+
+        }
+    }
+.container{
+    animation: rot 300ms 5 alternate;
+    background-color: black;
+    background-image: linear-gradient(rgb(231, 158, 62),rgb(58, 204, 114)) ;
+    height: 140.7mm ;
+    width: 69.5mm;
+    border-top: 5px solid Black;
+    border-bottom: 10px solid Black;
+    border-left: 3px solid Black;
+    border-right: 3px solid Black;
+
+    margin-top: 5% auto;
+    border-radius: 35px;
+    position: relative;
+    box-shadow:0 2px 4px rgb(0 ,0 ,0 , 0.9), 0 8px 16px rgb(0, 0 ,0 , 0.9);
+    
+}
+.status-bar{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    height: 7px;
+    margin-top: 14px;
+    margin-left: 7px; 
+    
+
+     
+}
+.time{
+   
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 7%;
+    margin-top: 2px;
+
+}
+#battery{
+    transform: rotate(90deg) ;
+}
+.icon{
+    height: 13px;
+    margin-right: 2px;
+}
+.icons{
+    display: flex;
+    margin-left: 155px;
+      
+}
+.footer{
+    margin-top: 470px;
+    margin-left: 3%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 94%;
+    height:10%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+}
+
+.apps{
+    margin-top: 6px;
+    height: 40px;
+    width: 40px;
+}
+.dots{
+    position: absolute;
+    margin-top: 165%;
+    margin-left: 47%;
+    height: 15px;
+    width: 30px;
+    
+}
+.dot{
+    height: 6px;
+    width: 6px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+   
+}
+.dot1{
+    height: 6px;
+    width: 6px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    display: inline-block;
+   
+}
+.first-line1{
+    position: absolute; 
+    height: 100px;
+    width: 100px;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.first-line2{
+    position: absolute;
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 20%;
+    margin-left: 57%;
+}
+.first-line3{
+    position: absolute;
+   
+    height: 100px;
+    width: 100px;
+    margin-top: 63%;
+    margin-left: 5%;
+}
+.first-line4{
+    position: absolute;
+   
+    height: 100px;
+    width: 100px;
+    margin-top: 63%;
+    margin-left: 57%;
+}
+.first-line5{
+    position: absolute;
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 106%;
+    margin-left: 5%;
+}
+.first-line6{
+    position: absolute;
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 106%;
+    margin-left: 57%;
+}
+.fb{
+    height: 35px;
+    width: 35px;
+    display: block;
+}
+.facebook{
+    height: 35px;
+    width: 35px;
+
+}
+.txt{
+    padding-top: 3px;
+    text-align: center;
+    font-size: 7px;
+    font-family: sans-serif;
+    color: white;
+}
+.one-one{
+    display: flex;
+    justify-content: space-between;
+}
+.one-two{
+    margin-top: 20%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin-top: -10%;
+    margin-left: -5%;
+    height: 120px;
+    width: 120px;
+}
+}
